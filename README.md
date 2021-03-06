@@ -1,4 +1,3 @@
-=
 # Alfred AppleScript Key Code Workflow
 An Alfred workflow that acts as a quick reference/lookup tool when you need to enter a key code during scripting.
 
