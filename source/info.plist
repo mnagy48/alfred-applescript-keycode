@@ -60,6 +60,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>3E38E6CA-902D-468F-9236-BB2774F35B12</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7290C4AB-8C4E-4DA0-8FEE-D521A89A1267</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>4600E4E4-078A-48DA-A037-84A6A247EA9D</key>
 		<array>
 			<dict>
@@ -74,6 +87,19 @@
 			</dict>
 		</array>
 		<key>5FCD6A97-B50D-4A57-A16A-3E90683FD8EA</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7290C4AB-8C4E-4DA0-8FEE-D521A89A1267</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>64C9800C-3E2C-49E3-BDD7-0726FF07E7E9</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
@@ -172,6 +198,36 @@
 			</dict>
 			<dict>
 				<key>destinationuid</key>
+				<string>9A8DA911-552E-4059-A824-D0942AFF3A43</string>
+				<key>modifiers</key>
+				<integer>131072</integer>
+				<key>modifiersubtext</key>
+				<string>Shift down</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>64C9800C-3E2C-49E3-BDD7-0726FF07E7E9</string>
+				<key>modifiers</key>
+				<integer>524288</integer>
+				<key>modifiersubtext</key>
+				<string>Option Down</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>3E38E6CA-902D-468F-9236-BB2774F35B12</string>
+				<key>modifiers</key>
+				<integer>262144</integer>
+				<key>modifiersubtext</key>
+				<string>Control Down</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
 				<string>1A0D2829-6BB0-44ED-B24A-6C22C4C9C3A5</string>
 				<key>modifiers</key>
 				<integer>0</integer>
@@ -182,6 +238,19 @@
 			</dict>
 		</array>
 		<key>7E9B5D59-28D9-4991-97D2-4C35AA7C7324</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7290C4AB-8C4E-4DA0-8FEE-D521A89A1267</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>9A8DA911-552E-4059-A824-D0942AFF3A43</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
@@ -322,6 +391,28 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>key</key>
+					<string>{query}</string>
+					<key>modifier</key>
+					<string>using {command down, shift down}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>4600E4E4-078A-48DA-A037-84A6A247EA9D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
@@ -366,28 +457,6 @@
 			<string>7290C4AB-8C4E-4DA0-8FEE-D521A89A1267</string>
 			<key>version</key>
 			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string></string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict>
-					<key>key</key>
-					<string>{query}</string>
-					<key>modifier</key>
-					<string>using {command down, shift down}</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>4600E4E4-078A-48DA-A037-84A6A247EA9D</string>
-			<key>version</key>
-			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -466,6 +535,72 @@
 				<dict>
 					<key>key</key>
 					<string>{query}</string>
+					<key>modifier</key>
+					<string>using shift down</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>9A8DA911-552E-4059-A824-D0942AFF3A43</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>key</key>
+					<string>{query}</string>
+					<key>modifier</key>
+					<string>using option down</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>64C9800C-3E2C-49E3-BDD7-0726FF07E7E9</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>key</key>
+					<string>{query}</string>
+					<key>modifier</key>
+					<string>using control down</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>3E38E6CA-902D-468F-9236-BB2774F35B12</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>key</key>
+					<string>{query}</string>
 				</dict>
 			</dict>
 			<key>type</key>
@@ -498,7 +633,7 @@ For example, if you wish to get the keycode for ⌘Q (command q), you would type
 			<key>xpos</key>
 			<integer>500</integer>
 			<key>ypos</key>
-			<integer>425</integer>
+			<integer>560</integer>
 		</dict>
 		<key>25B0ED45-D094-4F88-927A-A53C151CA7E8</key>
 		<dict>
@@ -514,6 +649,13 @@ For example, if you wish to get the keycode for ⌘Q (command q), you would type
 			<key>ypos</key>
 			<integer>335</integer>
 		</dict>
+		<key>3E38E6CA-902D-468F-9236-BB2774F35B12</key>
+		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
+			<key>ypos</key>
+			<integer>515</integer>
+		</dict>
 		<key>4600E4E4-078A-48DA-A037-84A6A247EA9D</key>
 		<dict>
 			<key>xpos</key>
@@ -528,21 +670,28 @@ For example, if you wish to get the keycode for ⌘Q (command q), you would type
 			<key>ypos</key>
 			<integer>380</integer>
 		</dict>
+		<key>64C9800C-3E2C-49E3-BDD7-0726FF07E7E9</key>
+		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
+			<key>ypos</key>
+			<integer>470</integer>
+		</dict>
 		<key>7290C4AB-8C4E-4DA0-8FEE-D521A89A1267</key>
 		<dict>
 			<key>note</key>
 			<string>Outputs key code to application in focus</string>
 			<key>xpos</key>
-			<integer>840</integer>
+			<integer>845</integer>
 			<key>ypos</key>
-			<integer>225</integer>
+			<integer>275</integer>
 		</dict>
 		<key>74624B78-0F5A-499C-9F61-8E0D17FE3303</key>
 		<dict>
 			<key>xpos</key>
-			<integer>95</integer>
+			<integer>55</integer>
 			<key>ypos</key>
-			<integer>225</integer>
+			<integer>275</integer>
 		</dict>
 		<key>7E9B5D59-28D9-4991-97D2-4C35AA7C7324</key>
 		<dict>
@@ -550,6 +699,13 @@ For example, if you wish to get the keycode for ⌘Q (command q), you would type
 			<integer>500</integer>
 			<key>ypos</key>
 			<integer>200</integer>
+		</dict>
+		<key>9A8DA911-552E-4059-A824-D0942AFF3A43</key>
+		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
+			<key>ypos</key>
+			<integer>425</integer>
 		</dict>
 		<key>A2938E5B-0476-47FD-AA4C-D9D60776ED6B</key>
 		<dict>
